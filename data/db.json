@@ -1,0 +1,298 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Henrique Souza",
+      "tipo": "Resgatador",
+      "email": "henrique@email.com",
+      "telefone": "(31) 99999-9999",
+      "senha": "123456",
+      "fotoPerfil": "henrique.jpg",
+      "historico": "5 adoções concluídas",
+      "preferencias": "Cães e gatos de pequeno porte",
+      "focoPerfil": "Resgatador"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "tipo": "Adotante",
+      "email": "maria@email.com",
+      "telefone": "(31) 98888-8888",
+      "senha": "abcdef",
+      "fotoPerfil": "maria.jpg",
+      "historico": "2 adoções concluídas",
+      "preferencias": "Gatos adultos",
+      "focoPerfil": "Adotante"
+    },
+    {
+      "id": 3,
+      "nome": "João Silva",
+      "tipo": "Resgatador",
+      "email": "joao@email.com",
+      "telefone": "(31) 97777-7777",
+      "senha": "654321",
+      "fotoPerfil": "joao.jpg",
+      "historico": "10 resgates concluídos",
+      "preferencias": "Cães de grande porte",
+      "focoPerfil": "Resgatador"
+    }
+  ],
+
+  "pets": [
+    {
+      "id": 1,
+      "tipoAnimal": "Cachorro",
+      "nome": "Thor",
+      "idade": "2 anos",
+      "porte": "Médio",
+      "raca": "Vira-lata",
+      "vacinacao": "Completa",
+      "localizacao": "Belo Horizonte - MG",
+      "foto": "thor.jpg",
+      "descricao": "Muito brincalhão e dócil",
+      "status": "Disponível para adoção",
+      "historico": "Resgatado da rua",
+      "saude": "Saudável",
+      "idResgatador": 1
+    },
+    {
+      "id": 2,
+      "tipoAnimal": "Gato",
+      "nome": "Luna",
+      "idade": "1 ano",
+      "porte": "Pequeno",
+      "raca": "Siamês",
+      "vacinacao": "Completa",
+      "localizacao": "Contagem - MG",
+      "foto": "luna.jpg",
+      "descricao": "Muito calma e carinhosa",
+      "status": "Disponível para adoção",
+      "historico": "Resgatada de abandono",
+      "saude": "Saudável",
+      "idResgatador": 1
+    },
+    {
+      "id": 3,
+      "tipoAnimal": "Cachorro",
+      "nome": "Rex",
+      "idade": "3 anos",
+      "porte": "Grande",
+      "raca": "Labrador",
+      "vacinacao": "Parcial",
+      "localizacao": "Betim - MG",
+      "foto": "rex.jpg",
+      "descricao": "Muito protetor e amigável",
+      "status": "Em análise",
+      "historico": "Resgatado de maus-tratos",
+      "saude": "Em tratamento",
+      "idResgatador": 3
+    }
+  ],
+
+  "matches": [
+    {
+      "id": 1,
+      "idUsuario": 2,
+      "idPet": 1,
+      "status": "Interessado",
+      "dataMatch": "2026-04-30"
+    },
+    {
+      "id": 2,
+      "idUsuario": 2,
+      "idPet": 2,
+      "status": "Aprovado",
+      "dataMatch": "2026-04-28"
+    },
+    {
+      "id": 3,
+      "idUsuario": 3,
+      "idPet": 3,
+      "status": "Em análise",
+      "dataMatch": "2026-04-27"
+    }
+  ],
+
+  "mensagens": [
+    {
+      "id": 1,
+      "idRemetente": 1,
+      "idDestinatario": 2,
+      "idMatch": 1,
+      "mensagem": "Olá, tenho interesse no Thor",
+      "horario": "14:30",
+      "data": "2026-04-30"
+    },
+    {
+      "id": 2,
+      "idRemetente": 2,
+      "idDestinatario": 1,
+      "idMatch": 1,
+      "mensagem": "Podemos conversar sobre a adoção?",
+      "horario": "15:10",
+      "data": "2026-04-30"
+    },
+    {
+      "id": 3,
+      "idRemetente": 3,
+      "idDestinatario": 2,
+      "idMatch": 3,
+      "mensagem": "O Rex ainda está disponível?",
+      "horario": "16:00",
+      "data": "2026-04-29"
+    }
+  ],
+
+  "rankingResgatadores": [
+    {
+      "id": 1,
+      "idUsuario": 1,
+      "nome": "Henrique Souza",
+      "quantidadeResgates": 25,
+      "posicao": 1
+    },
+    {
+      "id": 2,
+      "idUsuario": 3,
+      "nome": "João Silva",
+      "quantidadeResgates": 18,
+      "posicao": 2
+    },
+    {
+      "id": 3,
+      "idUsuario": 4,
+      "nome": "Ana Costa",
+      "quantidadeResgates": 12,
+      "posicao": 3
+    }
+  ],
+
+  "casosSucesso": [
+    {
+      "id": 1,
+      "nomePet": "Luna",
+      "nomeAdotante": "Maria",
+      "descricao": "Adotada após 2 meses no abrigo",
+      "dataAdocao": "2026-03-15"
+    },
+    {
+      "id": 2,
+      "nomePet": "Bob",
+      "nomeAdotante": "Carlos",
+      "descricao": "Encontrou um novo lar rapidamente",
+      "dataAdocao": "2026-02-10"
+    },
+    {
+      "id": 3,
+      "nomePet": "Mia",
+      "nomeAdotante": "Fernanda",
+      "descricao": "Foi adotada por uma família com crianças",
+      "dataAdocao": "2026-01-20"
+    }
+  ],
+
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Ração Premium",
+      "descricao": "Ração completa para cães e gatos",
+      "preco": 89.90,
+      "estoque": 20,
+      "imagem": "racao.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Coleira Ajustável",
+      "descricao": "Coleira confortável para cães",
+      "preco": 35.50,
+      "estoque": 15,
+      "imagem": "coleira.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Caixa de Areia",
+      "descricao": "Ideal para gatos domésticos",
+      "preco": 59.90,
+      "estoque": 10,
+      "imagem": "caixa_areia.jpg"
+    }
+  ],
+
+  "animaisReportados": [
+    {
+      "id": 1,
+      "tipoAnimal": "Cachorro",
+      "localizacao": "Rua Central, Belo Horizonte - MG",
+      "descricao": "Animal machucado próximo à praça",
+      "foto": "animal_rua.jpg",
+      "status": "Aguardando resgate"
+    },
+    {
+      "id": 2,
+      "tipoAnimal": "Gato",
+      "localizacao": "Praça Sete, BH",
+      "descricao": "Gato abandonado e assustado",
+      "foto": "gato_rua.jpg",
+      "status": "Resgate em andamento"
+    },
+    {
+      "id": 3,
+      "tipoAnimal": "Cachorro",
+      "localizacao": "Savassi, BH",
+      "descricao": "Filhote perdido sem coleira",
+      "foto": "filhote.jpg",
+      "status": "Finalizado"
+    }
+  ],
+
+  "contatos": [
+    {
+      "id": 1,
+      "nome": "Henrique",
+      "email": "henrique@email.com",
+      "assunto": "Dúvida sobre adoção",
+      "mensagem": "Gostaria de mais informações sobre o processo"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "email": "maria@email.com",
+      "assunto": "Problema no cadastro",
+      "mensagem": "Não consigo finalizar meu cadastro"
+    },
+    {
+      "id": 3,
+      "nome": "João",
+      "email": "joao@email.com",
+      "assunto": "Sugestão",
+      "mensagem": "Seria bom adicionar filtro por localização"
+    }
+  ],
+
+  "configuracoes": [
+    {
+      "id": 1,
+      "idUsuario": 1,
+      "tema": "Claro",
+      "notificacoes": true,
+      "privacidade": "Público",
+      "focoPerfil": "Resgatador"
+    },
+    {
+      "id": 2,
+      "idUsuario": 2,
+      "tema": "Escuro",
+      "notificacoes": true,
+      "privacidade": "Privado",
+      "focoPerfil": "Adotante"
+    },
+    {
+      "id": 3,
+      "idUsuario": 3,
+      "tema": "Claro",
+      "notificacoes": false,
+      "privacidade": "Público",
+      "focoPerfil": "Resgatador"
+    }
+  ]
+}

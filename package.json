@@ -1,0 +1,16 @@
+{
+  "name": "exjson",
+  "version": "1.0.0",
+  "description": "exemplo json server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Henrique Santos de Souza",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
